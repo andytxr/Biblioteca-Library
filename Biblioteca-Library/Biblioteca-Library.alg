@@ -1,8 +1,7 @@
 algoritmo "Biblioteca"
-// Função :
-// Autor : André Luiz Teixeira e Beatriz Gonçalves
+// FunÃ§Ã£o :
 // Data : 13/09/2019
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 TabLivros: vetor[1..10,1..3] de inteiro
 livro    : vetor[1..10] de caractere
@@ -19,21 +18,21 @@ i        : inteiro
 compra   : caracter
 cartao   : inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 livro[1]  <-"Poesia"
 livro[2]  <-"Romance"
-livro[3]  <-"Ficção Cientifica"
+livro[3]  <-"FicÃ§Ã£o Cientifica"
 livro[4]  <-"Infanto Juvenil"
 livro[5]  <-"Biografia"
 livro[6]  <-"Suspense"
 livro[7]  <-"Terror"
-livro[8]  <-"Ação"
+livro[8]  <-"AÃ§Ã£o"
 livro[9]  <-"Contos"
 livro[10] <-"Lendas"
 
 tamanho[1] <-"Curto"
-tamanho[2] <-"Médio"
+tamanho[2] <-"MÃ©dio"
 tamanho[3] <-"Longo"
 
 escreval("                                                                        /\                                                                 ")
@@ -67,14 +66,14 @@ escreval("         |      *********     |                                       
 escreval("         |      * \ | / *     |                                                                                    |      * \ | / *     |  ")
 escreval("         |      *  \|/  *     |                                                                                    |      *  \|/  *     |  ")
 escreval("         |      *********     |          ___      ___             ___  _________  _____    ____                    |      *********     |  ")
-escreval("         |                    |         |   |  º |   |  |     º  /   \     |     |        /    \     /\            |                    |  ")
+escreval("         |                    |         |   |  Âº |   |  |     Âº  /   \     |     |        /    \     /\            |                    |  ")
 escreval("         |                    |         |___/  | |___/  |     | |     |    |     |____   |          /  \           |                    |  ")
 escreval("         |                    |         |    | | |    | |     | |     |    |     |       |         /____\          |                    |  ")
 escreval("         |                    |         |___/  | |____/ |____ |  \___/     |     |______  \____/  /      \         |                    |  ")                                                |      *********     |
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
-escreval("         |                    |                                                                  GONÇALVES         |                    |  ")
+escreval("         |                    |                                                                  GONÃ‡ALVES         |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
@@ -89,9 +88,9 @@ escreval("         |                              |                             
 escreval("         |                              |                              |                                |                               |  ")
 escreval("         |                              |                              |                                |                               |  ")
 escreval("         |                              |                              |                                |                               |  ")
-escreval("         |                              |                          º   |   º                            |                               |  ")
-escreval("         |                              |                         ººº  |  ººº                           |                               |  ")
-escreval("         |                              |                          º   |   º                            |                               |  ")
+escreval("         |                              |                          Âº   |   Âº                            |                               |  ")
+escreval("         |                              |                         ÂºÂºÂº  |  ÂºÂºÂº                           |                               |  ")
+escreval("         |                              |                          Âº   |   Âº                            |                               |  ")
 escreval("         |                              |                              |                                |                               |  ")
 escreval("         |                              |                              |                                |                               |  ")
 escreval("         |                              |                              |                                |                               |  ")
@@ -137,14 +136,14 @@ escreval("         |      *********     |                                       
 escreval("         |      * \ | / *     |                                                                                    |      * \ | / *     |  ")
 escreval("         |      *  \|/  *     |                                                                                    |      *  \|/  *     |  ")
 escreval("         |      *********     |          ___      ___             ___  _________  _____    ____                    |      *********     |  ")
-escreval("         |                    |         |   |  º |   |  |     º  /   \     |     |        /    \     /\            |                    |  ")
+escreval("         |                    |         |   |  Âº |   |  |     Âº  /   \     |     |        /    \     /\            |                    |  ")
 escreval("         |                    |         |___/  | |___/  |     | |     |    |     |____   |          /  \           |                    |  ")
 escreval("         |                    |         |    | | |    | |     | |     |    |     |       |         /____\          |                    |  ")
 escreval("         |                    |         |___/  | |____/ |____ |  \___/     |     |______  \____/  /      \         |                    |  ")                                                |      *********     |
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
-escreval("         |                    |                                                                  GONÇALVES         |                    |  ")
+escreval("         |                    |                                                                  GONÃ‡ALVES         |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
 escreval("         |                    |                                                                                    |                    |  ")
@@ -244,33 +243,33 @@ repita
 
    escreval("                              Do tipo ",tipoj," tem ", i, " ." )
    
-   escreval("                              Você deseja comprar um livro?(s/n) ")
+   escreval("                              VocÃª deseja comprar um livro?(s/n) ")
       leia(compra)
 
       se(compra="s") entao
          se(tipoj<>0)  entao
-            escreva("                              Digite os digitos do seu cartão: ")
+            escreva("                              Digite os digitos do seu cartÃ£o: ")
             escreval
             leia(cartao)
             se(cartao=0) ou (cartao<0) entao
-               escreva("                              Digite novamente os números: ")
+               escreva("                              Digite novamente os nÃºmeros: ")
                escreval
                leia(cartao)
                i<- i - 1
-               escreva("                              Compra efetuada! O estoque desse tipo atualmente é: ",i)
+               escreva("                              Compra efetuada! O estoque desse tipo atualmente Ã©: ",i)
                escreval
             senao
                i<- i - 1
-               escreva("                              Compra efetuada! O estoque desse tipo atualmente é: ",i)
+               escreva("                              Compra efetuada! O estoque desse tipo atualmente Ã©: ",i)
                escreval
             fimse
          senao
-            escreval("                              Não há estoque!")
+            escreval("                              NÃ£o hÃ¡ estoque!")
          fimse
       fimse
 
 
-   escreva("                               Deseja fazer outra avaliação?(s/n) ")
+   escreva("                               Deseja fazer outra avaliaÃ§Ã£o?(s/n) ")
    leia(fim)
 
 ate( fim = "n")
